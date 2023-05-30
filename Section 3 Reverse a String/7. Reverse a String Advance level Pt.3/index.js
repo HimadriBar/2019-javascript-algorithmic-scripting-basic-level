@@ -4,11 +4,7 @@
 // Ex. "Greetings from Earth"
 
 function reverseString(str) {
-    var newStr = "";
-    for (var i = str.length - 1; i >= 0; i--) {
-        newStr += str[i];
-    }
-    return newStr;
+    return str.split('').reverse().join('');
 }
 console.log(reverseString("Hello"))
 console.log(reverseString("Himadri"))
