@@ -10,7 +10,8 @@ var newArr = [
 ];
 
 const largestOfFour = (arr) => {
-   return arr.map(Function.apply.bind(Math.max, null))
+    return arr.map(subArr => Math.max(...subArr));      // ES 6
+//    return arr.map(Function.apply.bind(Math.max, null))    ES5
 }
 
 
