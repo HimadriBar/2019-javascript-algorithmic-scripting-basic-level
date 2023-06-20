@@ -7,4 +7,5 @@ const confirmEnding = (str, target) => {
 }
 
 console.log(confirmEnding('Bastian', 'n'))  // true
-console.log(confirmEnding('Bast', 'n'))  // false
+console.log(confirmEnding('He has to give ma a new name', 'new'))  // false
+console.log(confirmEnding('He has to give ma a new name', 'name'))  // true
